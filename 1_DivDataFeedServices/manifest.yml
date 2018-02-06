@@ -1,0 +1,8 @@
+---
+applications:
+  - name:  qa-gecurrent-div-data-feed-services 
+    buildpack: java_buildpack
+    stack : cflinuxfs2
+    memory : 1G
+    path: target/div-data-feed-services-0.0.1-SNAPSHOT.jar
+    
