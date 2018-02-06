@@ -1,0 +1,9 @@
+---
+applications:
+  - name: qa-gecurrent-div-services
+    buildpack: java_buildpack
+   
+    memory: 2G
+    path: target/DigitalInventory-0.0.1-SNAPSHOT.jar
+    
+   
